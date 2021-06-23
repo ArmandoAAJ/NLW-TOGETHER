@@ -1,6 +1,6 @@
-import React from 'react';
-import { ButtonIcon } from '../../components/ButtonIcon';
-import { Container, Text, Image, Content } from './styles';
+import React from "react";
+import { ButtonIcon } from "../../components/ButtonIcon";
+import { Container, Text, Image, Content } from "./styles";
 
 export const SignIn: React.FC = () => {
   return (
@@ -8,16 +8,15 @@ export const SignIn: React.FC = () => {
       <Image />
       <Content>
         <Text size bottom={16}>
-          Organize {`\n`}
-          suas jogatinas {`\n`}
-          facilmente
+          Conecte-se {`\n`}e organize suas {`\n`}
+          jogatinas
         </Text>
         <Text bottom={64}>
           Crie grupos para jogar seus games {`\n`}
           favoritos com seus amigos
         </Text>
-        <ButtonIcon title="Entrar com Discord"/>
+        <ButtonIcon title="Entrar com Discord" />
       </Content>
     </Container>
-  )
-}
+  );
+};
